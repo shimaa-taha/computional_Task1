@@ -1,14 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
-
-
-
-# In[57]:
-
 
 import pyopenms
 from pyopenms import *
@@ -155,10 +144,3 @@ print(L.getMonoWeight())
 print(L.getFormula().toString())
 
 #################################################################################################################
-
-
-# In[ ]:
-
-
-
-
