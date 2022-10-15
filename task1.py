@@ -144,3 +144,18 @@ print(L.getMonoWeight())
 print(L.getFormula().toString())
 
 #################################################################################################################
+#ModificationsDB contain the modification in amino asid
+o = ModificationsDB().getModification("Oxidation")
+print(o.getUniModAccession())
+
+print(o.getUniModRecordId())
+
+print(o.getDiffMonoMass())
+
+print(o.getId())
+
+print(o.getFullId())
+
+print(o.getFullName())
+
+print(o.getDiffFormula())
