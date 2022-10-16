@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 import pyopenms
 from pyopenms import *
@@ -184,10 +179,4 @@ methyladenosine = RibonucleotideDB().getRibonucleotide(b"m1A")
 print(methyladenosine.getName())
 
 print(methyladenosine.isModified())
-
-
-# In[ ]:
-
-
-
 
